@@ -1,16 +1,8 @@
 Flask Basic Login
 
-<p align="center">
-  <b>My First Flask Project 🚀</b>
-</p>---
+«My first basic Flask project 🚀»
 
-📌 About
-
-A simple login form built using Python Flask, HTML, and CSS.
-
-Users can enter their name and submit the form to receive a personalized welcome message.
-
-This project was created while learning Flask and basic web development.
+A simple login form built using Python Flask, HTML, and CSS. Users enter their name and receive a personalized welcome message after submitting the form.
 
 ---
 
@@ -27,11 +19,10 @@ This project was created while learning Flask and basic web development.
 
 🛠️ Technologies Used
 
-Technology| Purpose
-🐍 Python| Backend
-⚡ Flask| Web framework
-🌐 HTML| Structure
-🎨 CSS| Styling
+- 🐍 Python — Backend
+- ⚡ Flask — Web framework
+- 🌐 HTML — Page structure
+- 🎨 CSS — Styling
 
 ---
 
@@ -49,42 +40,44 @@ Flask-Basic-Login/
 
 🚀 Getting Started
 
-1️⃣ Install Flask
+1. Install Flask
 
 pip install flask
 
-2️⃣ Run the application
+2. Run the application
 
 python app.py
 
-3️⃣ Open in your browser
+3. Open in your browser
+
+Visit:
 
 http://127.0.0.1:5000
 
-Enter your name and click Submit to see your welcome message!
+Enter your name and click Submit!
 
 ---
 
 📚 What I Learned
 
 - Flask routes
-- Handling HTML forms
+- HTML forms
 - POST requests
 - "request.form.get()"
 - "render_template()"
-- Passing data from Python to HTML using Jinja
-- Basic CSS styling
+- Passing Python data to HTML using Jinja
+- Basic CSS styling and transitions
 
 ---
 
 🎯 Purpose
 
-This is a beginner project made for learning and practicing Flask web development.
+This project was created as part of my journey to learn Python, Flask, and Web Development.
 
 «⚠️ This is a basic demo login form, not a real authentication system.»
 
 ---
 
 <p align="center">
-  Made with ❤️ and Python
+  Made with Python and html-css 🐍
 </p>
