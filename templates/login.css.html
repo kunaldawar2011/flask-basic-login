@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    body{
+      background: #14599bc0
+    }
+    
+    .main{
+      padding: 60px;
+      border: 10px solid #144b9beb;
+      border-radius: 20px;
+      box-shadow: 8px 12px 4px #5399ffc9;
+    }
+    
+    label{
+      display: block;
+      text-align: center;
+      font-size: 34px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #a62c2c;
+    }
+    input{
+      text-align: center;
+      box-align: center;
+      padding: 12px;
+      border: 3px solid orange;
+      border-radius: 12px;
+      box-shadow: 4px 6px 2px #340101c8;
+      transition: 1.2s;
+    }
+    input:hover{
+      text-align: center;
+      box-align: center;
+      padding: 20px;
+      background: yellowgreen;
+      border: 3px solid orange;
+      border-radius: 12px;
+      box-shadow: 4px 6px 2px #005043c8
+      
+      
+    }
+    button{
+      padding: 20px;
+      border-radius: 10px;
+      background: green;
+      text-align: center;
+      margin-top: 15px;
+      margin-left: 48px;
+      box-shadow: 3px 5px 2px 1px darkgreen;
+      transition: 1.5s;
+    }
+    button:hover{
+      padding: 25px;
+      border-radius: 12px;
+      background: Orange;
+      text-align: center;
+      margin-top: 15.2px;
+      margin-left: 48px;
+      box-shadow: 3px 5px 2px 1px maroon;  
+    }
+        
+  </style>
+</head>
+<body>
+  <form action="/login" method="POST">
+    <div class="main">
+    <label for="name">Name</label>
+    <input id="name" name="username" required placeholder="Enter your name" type="text">
+    <button type="submit">Submit ☺️</button>
+    </div>
+  </form>
+  
+</body>
+</html>
